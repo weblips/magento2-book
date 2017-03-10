@@ -2,11 +2,14 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
     <acl>
         <resources>
-            <resource id="Magento_Backend::admin">                
+            <resource id="Magento_Backend::admin">
+                <resource id="Weblips_Logo::first_level" title="BookClub"  sortOrder="10">
+                    <resource id="Weblips_Logo::second_level_config" title="edit menu admin" sortOrder="0"/>
+                </resource>
                 <resource id="Magento_Backend::stores">
                     <resource id="Magento_Backend::stores_settings">
                         <resource id="Magento_Config::config">
-                            <resource id="Weblips_Logo::contact_logo" title="Weblips Logo" />
+                            <resource id="Weblips_Logo::logo_config" title="BookClub"/>
                         </resource>
                     </resource>
                 </resource>
