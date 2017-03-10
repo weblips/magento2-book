@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+            <add id="Weblips_Logo::first_level"
+                title="BookClub" 
+                translate="title"
+                module="Weblips_Logo" 
+                sortOrder="10"
+                resource="Magento_Backend::content" /> 
+ 
+            <add id="Weblips_Logo::second_level"
+                title="edit menu admin"
+                translate="title"
+                module="Weblips_Logo"
+                sortOrder="0"
+                action="menuitem/index/index"
+                parent="Weblips_Logo::first_level"
+                resource="Magento_Backend::content" />
+                <add id="Weblips_Logo::three_level"
+                    title="Logo in menu admin"
+                    translate="title"
+                    module="Weblips_Logo"
+                    sortOrder="0"
+                    action="menuitem/index/index"
+                    parent="Weblips_Logo::second_level"
+                    resource="Magento_Backend::content" />
+    </menu>
+</config>
