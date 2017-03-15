@@ -6,7 +6,6 @@
         <link src="requirejs/require.js"/>
         <css src="extjs/resources/css/ext-all.css"/>
         <css src="extjs/resources/css/ytheme-magento.css"/>
-        <link src="Weblips_Logo::js/add-logo.js"/>
     </head>
     <body>
         <attribute name="id" value="html-body"/>

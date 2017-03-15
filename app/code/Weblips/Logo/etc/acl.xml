@@ -3,14 +3,9 @@
     <acl>
         <resources>
             <resource id="Magento_Backend::admin">
-                <resource id="Weblips_Logo::first_level" title="BookClub"  sortOrder="10">
-                    <resource id="Weblips_Logo::second_level_config" title="edit menu admin" sortOrder="0"/>
-                </resource>
-                <resource id="Magento_Backend::stores">
-                    <resource id="Magento_Backend::stores_settings">
-                        <resource id="Magento_Config::config">
-                            <resource id="Weblips_Logo::logo_config" title="BookClub"/>
-                        </resource>
+                <resource id="Weblips_Logo::first_level" title="BookClub" sortOrder="10" >
+                    <resource id="Weblips_Logo::second_level" title="edit menu admin" sortOrder="0">
+                        <resource id="Weblips_Logo::three_level" title="Level3" sortOrder="0" />
                     </resource>
                 </resource>
             </resource>

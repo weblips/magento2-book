@@ -6,15 +6,21 @@
                 translate="title"
                 module="Weblips_Logo" 
                 sortOrder="10"
-                resource="Magento_Backend::content" /> 
- 
+                resource="Weblips_Logo::first_level" /> 
             <add id="Weblips_Logo::second_level"
                 title="edit menu admin"
                 translate="title"
                 module="Weblips_Logo"
                 sortOrder="0"
-                action="menuitem/index/index"
                 parent="Weblips_Logo::first_level"
-                resource="Magento_Backend::content" />
+                resource="Weblips_Logo::second_level" />
+            <add id="Weblips_Logo::three_level"
+                title="Level 3"
+                translate="title"
+                module="Weblips_Logo"
+                sortOrder="0"
+                action="bookclub/bookclub"
+                parent="Weblips_Logo::second_level"
+                resource="Weblips_Logo::three_level" />
     </menu>
 </config>
