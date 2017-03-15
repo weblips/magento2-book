@@ -9,6 +9,7 @@
     height: 23px;
     background: url(../images/duck.png);
     background-size: 28px 23px;
+    /*background-size: 28px 23px; default size for icon in menu*/
     margin: 0 auto;
 }
 
